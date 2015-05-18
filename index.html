@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sailnote example</title>
+  <style>
+    html, body {
+      height: 100%;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 80px;
+      font-weight: bold;
+      letter-spacing: -3px;
+      color: #585858;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="sailnote.js"></script>
+</head>
+<body>
+  <div class="sn-slide">sailnote is a</div>
+  <div class="sn-slide" sn-id="fadeIn">minimalist</div>
+  <div class="sn-slide">javascript library</div>
+  <div class="sn-slide">that helps you</div>
+  <div class="sn-slide">create beautiful cards</div>
+
+  <script>
+    $(function(){
+      Sailnote.init();
+
+      Sailnote.on('enter', 'fadeIn', function(note){
+        note.css('opacity', '0');
+        note.animate({'opacity': '0.8'}, 2000);
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "sailnote",
+  "version": "0.0.0",
+  "description": "tiny and minimalist library for people to easily create a slide show in HTML/JS",
+  "main": "sailnote.js",
+  "keywords": [
+    "presentation",
+    "slides",
+    "slide",
+    "show",
+    "card",
+    "minimal",
+    "tiny"
+  ],
+  "authors": [
+    "Kenny Tran"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
