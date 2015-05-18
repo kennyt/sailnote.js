@@ -43,7 +43,7 @@ You can also listen for the 'leave' event.
 
 # API
 
-There are two simple methods exposed if you want to use javascript to go to the next slide.
+There are two simple methods exposed if you want to use javascript to navigate slides.
 
 to go to next:
 ```javascript
