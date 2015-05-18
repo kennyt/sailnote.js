@@ -39,5 +39,19 @@ and listen for the 'enter' event, like so:
 ```
 the function will receive the element with the sn-id "example-fade-in" as an argument.
 
-
 You can also listen for the 'leave' event.
+
+# API
+
+There are two simple methods exposed if you want to use javascript to go to the next slide.
+
+to go to next:
+```javascript
+  Sailnote.next();
+```
+
+
+to go back:
+```javascript
+  Sailnote.back();
+```
