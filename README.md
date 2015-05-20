@@ -55,3 +55,6 @@ to go back:
 ```javascript
   Sailnote.back();
 ```
+
+# Dependencies
+jQuery
